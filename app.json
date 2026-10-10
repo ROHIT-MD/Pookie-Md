@@ -1,0 +1,20 @@
+{
+  "name": "Pookie !¡🐱💗 Md",
+  "description": "WhatsApp MD bot (Baileys) for Optiklink / Pterodactyl panels",
+  "repository": "",
+  "keywords": ["whatsapp", "baileys", "bot", "node", "optiklink"],
+  "buildpacks": [],
+  "env": {
+    "PAIRING_NUMBER": {
+      "description": "WhatsApp number with country code, no + or spaces. Used to print an 8-digit pair code. No SESSION_ID needed.",
+      "required": true,
+      "value": "256789966218"
+    },
+    "CONNECT_METHOD": {
+      "description": "Connect option: pair (8-digit code) or qr",
+      "required": false,
+      "value": "pair"
+    }
+  }
+}
+
